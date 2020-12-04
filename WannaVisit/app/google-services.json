@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "109540571543",
+    "project_id": "wannavisit-1f67b",
+    "storage_bucket": "wannavisit-1f67b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109540571543:android:abe89727f840a6efa5acd2",
+        "android_client_info": {
+          "package_name": "com.example.wannavisit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109540571543-7o073qfkikbiibaj7pkfjjgrvgcfr8t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALV2F5ksaJaZDstX2lukmyE0Jdso8s4x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109540571543-7o073qfkikbiibaj7pkfjjgrvgcfr8t7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -41,7 +41,7 @@
 
 
     <Button
-        android:id="@+id/signup"
+        android:id="@+id/login1"
         android:layout_width="150dp"
         android:layout_height="55dp"
         android:text="Signup"
@@ -64,10 +64,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/signup" />
+        app:layout_constraintTop_toBottomOf="@+id/login1" />
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/signup1"
         android:layout_width="100dp"
         android:layout_height="55dp"
         android:text="login"
@@ -80,7 +80,7 @@
         app:layout_constraintVertical_bias="0.869" />
 
     <EditText
-        android:id="@+id/input_name"
+        android:id="@+id/email"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -99,6 +99,7 @@
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
     <EditText
+        android:id="@+id/pwd1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -114,10 +115,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_name" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <EditText
-        android:id="@+id/editTextTextPassword2"
+        android:id="@+id/pwd2"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -133,6 +134,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/input_name" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
