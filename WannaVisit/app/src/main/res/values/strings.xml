@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">WannaVisit</string>
+    <string name="title_activity_mapgateway">Map</string>
+    <string name="title_activity_mapnehru">Map</string>
+    <string name="title_activity_mapmarine">Map</string>
+    <string name="title_activity_mapsanjay">Map</string>
+    <string name="title_activity_mapclink">Map</string>
 </resources>
