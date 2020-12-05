@@ -93,7 +93,7 @@
         android:layout_height="100dp"
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
         android:layout_marginRight="10dp"
         android:text="S.G. national park"
