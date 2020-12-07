@@ -99,7 +99,7 @@ public class dashboard extends AppCompatActivity {
         drawerLayout = findViewById(R.id.drawer_layout);
     }
 
-    public void ClickMenu(View viw){
+    public void ClickMenu(View viw) {
         //open drawer
         openDrawer(drawerLayout);
     }
@@ -109,7 +109,7 @@ public class dashboard extends AppCompatActivity {
         drawerLayout.openDrawer(GravityCompat.START);
     }
 
-    public void ClickLogo(View view){
+    public void ClickLogo(View view) {
         //Close Drawer
         closeDrawer(drawerLayout);
     }
@@ -117,17 +117,17 @@ public class dashboard extends AppCompatActivity {
     public static void closeDrawer(DrawerLayout drawerLayout) {
         //close drawer layout
         //check condition
-        if(drawerLayout.isDrawerOpen((GravityCompat.START))){
+        if (drawerLayout.isDrawerOpen((GravityCompat.START))) {
             //when it is open
             drawerLayout.closeDrawer(GravityCompat.START);
         }
     }
 
-    public void ClickHome(View view){
+    public void ClickHome(View view) {
         recreate();
     }
 
-    public void ClickChat(View view){
+    public void ClickChat(View view) {
         redirectAct(this);
     }
 
@@ -137,18 +137,18 @@ public class dashboard extends AppCompatActivity {
         activity.startActivity(intent);
     }
 
-    public void ClickCalculator(View view){
-        redirectActivity(this,calculator.class);
+    public void ClickCalculator(View view) {
+        redirectActivity(this, calculator.class);
     }
 
-    public void ClickExit(View view){
+    public void ClickExit(View view) {
 //        super.onDestroy();
         finish();
         System.exit(0);
     }
 
 
-    public void ClickLogout(View view){
+    public void ClickLogout(View view) {
 //        logout(this);
         FirebaseAuth.getInstance().signOut();
         startActivity(new Intent(getApplicationContext(), login.class));
