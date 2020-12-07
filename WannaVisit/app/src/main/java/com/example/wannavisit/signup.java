@@ -80,8 +80,8 @@ public class signup extends AppCompatActivity {
                             Toast.makeText(signup.this, "Account created successfully.", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(getApplicationContext(),dashboard.class));
 
-                            String msg = "Welcome to WannaVisit. Feel free to explore.";
-                            
+//                            String msg = "Welcome to WannaVisit. Feel free to explore.";
+
                         }else{
                             Toast.makeText(signup.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
