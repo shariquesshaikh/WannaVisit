@@ -20,7 +20,7 @@ public class gateway extends AppCompatActivity {
         mNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),mapgateway.class));
+                startActivity(new Intent(getApplicationContext(), mapgateway.class));
             }
         });
     }

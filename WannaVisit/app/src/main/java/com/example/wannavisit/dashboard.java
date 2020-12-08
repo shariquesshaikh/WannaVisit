@@ -33,11 +33,6 @@ public class dashboard extends AppCompatActivity {
     Button mGateway, mMarine, mNehru, mPark, mClink;
     DrawerLayout drawerLayout;
 
-//    String fileName = "";
-//    String filePath = "";
-//    String fileContent = "";
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -50,54 +45,9 @@ public class dashboard extends AppCompatActivity {
         mPark = findViewById(R.id.sanjay_h);
         mClink = findViewById(R.id.sealink_h);
 
-//        fileName = "wannavisit.txt";
-//        filePath = "wannavisit";
-
-//        File file = new File(getExternalFilesDir(filePath), fileName);
-
-
-//        String state = Environment.getExternalStorageState();
-//
-//        if (Environment.MEDIA_MOUNTED.equals(state)) {
-//            try {
-//                file.createNewFile();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-
         mGateway.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //visited gateway
-//                File root = android.os.Environment.getExternalStorageDirectory();
-//                File dir = new File(root.getAbsolutePath() + "/wannavisit");
-//                dir.mkdirs();
-//                File file = new File(dir, "wv.txt");
-//
-////        File file = new File("/sdcard/mymyfilefile.txt");
-////        try {
-////            file.createNewFile();
-////        } catch (IOException e) {
-////            e.printStackTrace();
-////        }
-//                try {
-//                    FileOutputStream f = new FileOutputStream(file);
-//                    PrintWriter pw = new PrintWriter(f);
-//                    pw.println("Hi , How are you");
-//                    pw.println("Explored Gateway of India");
-//                    pw.flush();
-//                    pw.close();
-//                    f.close();
-//                } catch (FileNotFoundException e) {
-//                    e.printStackTrace();
-////            Log.i(TAG, "******* File not found. Did you" +
-////                    " add a WRITE_EXTERNAL_STORAGE permission to the   manifest?");
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//                fileContent = "Explored Gateway of India";
-
                 startActivity(new Intent(getApplicationContext(), gateway.class));
             }
         });
@@ -105,7 +55,6 @@ public class dashboard extends AppCompatActivity {
         mMarine.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                fileContent = "Explored Marine Drive.";
                 startActivity(new Intent(getApplicationContext(), marine.class));
             }
         });

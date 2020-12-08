@@ -20,7 +20,7 @@ public class nehru extends AppCompatActivity {
         mNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),mapnehru.class));
+                startActivity(new Intent(getApplicationContext(), mapnehru.class));
             }
         });
 

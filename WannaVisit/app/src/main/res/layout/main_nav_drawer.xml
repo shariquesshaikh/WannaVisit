@@ -8,9 +8,9 @@
         android:layout_width="match_parent"
         android:layout_height="176dp"
         android:layout_margin="0dp"
-        android:onClick="ClickLogo"
         android:background="@color/purple_200"
-        android:src="@drawable/ic_logout"/>
+        android:onClick="ClickLogo"
+        android:src="@drawable/ic_logout" />
 
 
     <LinearLayout

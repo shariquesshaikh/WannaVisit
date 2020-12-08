@@ -19,32 +19,32 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:orientation="vertical"
-            android:layout_weight="3">
+            android:layout_weight="3"
+            android:orientation="vertical">
 
             <TextView
+                android:id="@+id/workingsTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"
                 android:layout_gravity="end"
-                android:id="@+id/workingsTextView"
-                android:text=""
-                android:paddingRight="30dp"
-                android:textAlignment="textEnd"
+                android:layout_weight="1"
                 android:gravity="center_vertical"
+                android:paddingRight="30dp"
+                android:text=""
+                android:textAlignment="textEnd"
                 android:textColor="@color/purple_200"
                 android:textSize="35sp" />
 
             <TextView
+                android:id="@+id/resultTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:layout_weight="1"
-                android:paddingRight="30dp"
-                android:id="@+id/resultTextView"
-                android:textAlignment="textEnd"
                 android:layout_gravity="end"
+                android:layout_weight="1"
                 android:gravity="center_vertical"
+                android:paddingRight="30dp"
                 android:text=""
+                android:textAlignment="textEnd"
                 android:textColor="@color/purple_200"
                 android:textSize="45sp" />
 
@@ -68,18 +68,18 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="1"
                     android:onClick="oneOnClick"
+                    android:text="1"
                     android:textColor="@color/white"
-                    android:textSize="25sp"/>
+                    android:textSize="25sp" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
                     android:layout_margin="0dp"
-                    android:text="2"
+                    android:layout_weight="1"
                     android:onClick="twoOnClick"
+                    android:text="2"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -87,8 +87,8 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="3"
                     android:onClick="threeOnClick"
+                    android:text="3"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -96,18 +96,18 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:background="@color/purple_200"
+                    android:onClick="plusOnClick"
                     android:text="+"
                     android:textColor="@color/white"
-                    android:textSize="35sp"
-                    android:onClick="plusOnClick"
-                    android:background="@color/purple_200"/>
+                    android:textSize="35sp" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="INR to USD"
                     android:onClick="inrToUsdOnClick"
+                    android:text="INR to USD"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -125,8 +125,8 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1"
 
-                    android:text="4"
                     android:onClick="fourOnnClick"
+                    android:text="4"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -134,8 +134,8 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="5"
                     android:onClick="fiveOnClick"
+                    android:text="5"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -143,8 +143,8 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="6"
                     android:onClick="sixOnClick"
+                    android:text="6"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -152,19 +152,19 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="-"
+                    android:background="@color/purple_200"
                     android:onClick="minusOnClick"
+                    android:text="-"
                     android:textColor="@color/white"
-                    android:textSize="35sp"
-                    android:background="@color/purple_200"/>
+                    android:textSize="35sp" />
 
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="USD to INR"
                     android:onClick="usdToInrOnClick"
+                    android:text="USD to INR"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -180,8 +180,8 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="7"
                     android:onClick="sevenOnClick"
+                    android:text="7"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -189,8 +189,8 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="8"
                     android:onClick="eightOnClick"
+                    android:text="8"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -198,8 +198,8 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="9"
                     android:onClick="nineOnClick"
+                    android:text="9"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -207,19 +207,19 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="/"
+                    android:background="@color/purple_200"
                     android:onClick="divideOnClick"
+                    android:text="/"
                     android:textColor="@color/white"
-                    android:textSize="35sp"
-                    android:background="@color/purple_200"/>
+                    android:textSize="35sp" />
 
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="GBP to USD"
                     android:onClick="gbpToUsdOnClick"
+                    android:text="GBP to USD"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -235,8 +235,8 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="."
                     android:onClick="dotOnClick"
+                    android:text="."
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -244,8 +244,8 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="0"
                     android:onClick="zeroOnClick"
+                    android:text="0"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -253,8 +253,8 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="*"
                     android:onClick="multiplyOnClick"
+                    android:text="*"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 
@@ -262,18 +262,18 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="="
+                    android:background="@color/purple_200"
                     android:onClick="equalOnClick"
+                    android:text="="
                     android:textColor="@color/white"
-                    android:textSize="35sp"
-                    android:background="@color/purple_200"/>
+                    android:textSize="35sp" />
 
                 <Button
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="JPY to USD"
                     android:onClick="jpyToUsdOnClick"
+                    android:text="JPY to USD"
                     android:textColor="@color/white"
                     android:textSize="20sp" />
 
@@ -289,11 +289,11 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:text="Clear"
+                    android:background="@color/purple_200"
                     android:onClick="clearOnClick"
+                    android:text="Clear"
                     android:textColor="@color/white"
-                    android:textSize="20sp"
-                    android:background="@color/purple_200"/>
+                    android:textSize="20sp" />
 
             </LinearLayout>
 

@@ -20,7 +20,7 @@ public class sanjay extends AppCompatActivity {
         mNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),mapsanjay.class));
+                startActivity(new Intent(getApplicationContext(), mapsanjay.class));
             }
         });
     }
