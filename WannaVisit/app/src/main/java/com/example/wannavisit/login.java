@@ -33,8 +33,8 @@ public class login extends AppCompatActivity {
 
         fAuth = FirebaseAuth.getInstance();
 
-        if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),dashboard.class));
+        if (fAuth.getCurrentUser() != null) {
+            startActivity(new Intent(getApplicationContext(), dashboard.class));
             finish();
         }
 
@@ -46,12 +46,12 @@ public class login extends AppCompatActivity {
 
 
                 //Deciding appropriate data
-                if(TextUtils.isEmpty(email)){
+                if (TextUtils.isEmpty(email)) {
                     mEmail.setError("Email is Required.");
                     return;
                 }
 
-                if(TextUtils.isEmpty(pwd)){
+                if (TextUtils.isEmpty(pwd)) {
                     mPassword.setError("Please enter the password.");
                     return;
                 }
@@ -60,10 +60,10 @@ public class login extends AppCompatActivity {
                 fAuth.signInWithEmailAndPassword(email, pwd).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful()){
+                        if (task.isSuccessful()) {
                             Toast.makeText(login.this, "Logged in successfully!.", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),dashboard.class));
-                        }else{
+                            startActivity(new Intent(getApplicationContext(), dashboard.class));
+                        } else {
                             Toast.makeText(login.this, "Error!" + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     }
@@ -75,7 +75,7 @@ public class login extends AppCompatActivity {
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(),signup.class));
+                startActivity(new Intent(getApplicationContext(), signup.class));
             }
         });
     }

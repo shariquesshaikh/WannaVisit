@@ -93,7 +93,7 @@ public class signup extends AppCompatActivity {
 
                                 String CHANNEL_ID = "my_channel#";
                                 CharSequence charName = "my_channel123";
-                                String message = "Welcome to WannaVisit. Feel free to explore.";
+                                String message = "Welcome to WannaVisit. Feel free to explore different places in Mumbai. Click here to get help from our bot https://t.me/@WannaVisitBot";
 
                                 int importance = NotificationManager.IMPORTANCE_HIGH;
 

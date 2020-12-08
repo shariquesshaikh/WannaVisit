@@ -10,14 +10,7 @@
         android:layout_margin="0dp"
         android:onClick="ClickLogo"
         android:background="@color/purple_200"
-        android:src="@drawable/ic_hamb"/>
-
-
-<!--    <View-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="176dp"-->
-<!--        android:layout_margin="2dp"-->
-<!--        android:background="@color/purple_200" />-->
+        android:src="@drawable/ic_logout"/>
 
 
     <LinearLayout
@@ -40,7 +33,7 @@
             android:layout_weight="1"
             android:padding="12dp"
             android:text="Home"
-            android:textSize="15sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -65,8 +58,8 @@
             android:layout_marginStart="5dp"
             android:layout_weight="1"
             android:padding="12dp"
-            android:text="Need Any Help? Chat With Us."
-            android:textSize="15sp"
+            android:text="Chat With Us"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -90,8 +83,8 @@
             android:layout_marginStart="5dp"
             android:layout_weight="1"
             android:padding="12dp"
-            android:text="Want To Do Some Math? Click Here."
-            android:textSize="15sp"
+            android:text="Want To Do Some Math?"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -134,6 +127,7 @@
             android:layout_weight="1"
             android:padding="12dp"
             android:text="Logout"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
     </LinearLayout>
@@ -158,6 +152,7 @@
             android:layout_weight="1"
             android:padding="12dp"
             android:text="Exit"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
     </LinearLayout>
