@@ -4,7 +4,8 @@
     android:layout_height="wrap_content"
     android:gravity="center_vertical"
     android:orientation="horizontal"
-    android:padding="12dp">
+    android:padding="12dp"
+    android:background="@color/purple_200">
 
     <ImageView
         android:layout_width="50dp"
@@ -12,16 +13,16 @@
         android:onClick="ClickMenu"
         android:src="@drawable/ic_hamb" />
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:gravity="center_horizontal"
-        android:text="WannaVisit"
-        android:textAlignment="center"
-        android:textColor="@color/purple_200"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+<!--    <TextView-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_weight="1"-->
+<!--        android:gravity="center_horizontal"-->
+<!--        android:text="WannaVisit"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/purple_200"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold" />-->
 
 
 </LinearLayout>
